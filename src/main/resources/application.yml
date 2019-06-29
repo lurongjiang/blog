@@ -1,0 +1,11 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///vblog?serverTimezone=GMT%2B8
+    hikari:
+      pool-name: Hikari
+      maximum-pool-size: 20
